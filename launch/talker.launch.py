@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package = 'demo_modes_cpp',
+            package = 'demo_nodes_cpp',
             executable = 'talker'
         )
     ])
