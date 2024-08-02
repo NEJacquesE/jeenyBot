@@ -159,8 +159,8 @@
     </link>
     <gazebo reference="front_caster_wheel">
         <material>Gazebo/Black</material>
-        <mu1 value="0.001"/>
-        <mu2 value="0.001"/>
+        <mu1 value="0.003"/>
+        <mu2 value="0.003"/>
     </gazebo>
 
     <!-- BACK CASTER WHEEL -->
@@ -190,8 +190,8 @@
     </link>
     <gazebo reference="back_caster_wheel">
         <material>Gazebo/Blue</material>
-        <mu1 value="0.001"/>
-        <mu2 value="0.001"/>
+        <mu1 value="0.003"/>
+        <mu2 value="0.003"/>
     </gazebo>
 
 
