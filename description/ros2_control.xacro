@@ -10,7 +10,7 @@
             <param name="device">/dev/ttyUSB0</param>
             <param name="baud_rate">57600</param>
             <param name="timeout">1000</param>
-            <param name="enc_counts_per_rev">3022</param>
+            <param name="enc_counts_per_rev">2150</param>
         </hardware>
 
         <joint name="left_wheel_joint">
@@ -53,7 +53,7 @@
         </joint>
     </ros2_control-->
 
-    <gazebo>
+<gazebo>
     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
         <parameters>$(find jeeny-bot)/config/my_controllers.yaml</parameters>
     </plugin>
