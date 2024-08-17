@@ -71,21 +71,21 @@
             <material name="blue"/>
         </visual-->
         <visual>
-            <origin xyz="0 0 0.022" rpy="0 0 0"/>
+            <origin xyz="0 0 0.0165" rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.044" radius="0.037" />
+                <cylinder length="0.031" radius="0.037" />
             </geometry>
             <material name="blue"/>
         </visual>
         <collision>
-            <origin xyz="0 0 0.022" rpy="0 0 0"/>
+            <origin xyz="0 0 0.0165" rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.044" radius="0.037" />
+                <cylinder length="0.031" radius="0.037" />
             </geometry>
             <material name="blue"/>
         </collision>
-        <xacro:inertial_cylinder mass="0.035" length="0.044" radius="0.037">
-            <origin xyz="0 0 0.022" rpy="0 0 0"/>
+        <xacro:inertial_cylinder mass="0.035" length="0.031" radius="0.037">
+            <origin xyz="0 0 0.0165" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
 
     </link>
@@ -111,21 +111,21 @@
             <material name="blue"/>
         </visual-->
         <visual>
-            <origin xyz="0 0 0.022" rpy="0 0 0"/>
+            <origin xyz="0 0 0.0165" rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.044" radius="0.037" />
+                <cylinder length="0.031" radius="0.037" />
             </geometry>
             <material name="blue"/>
         </visual>
         <collision>
-            <origin xyz="0 0 0.022" rpy="0 0 0"/>
+            <origin xyz="0 0 0.0165" rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.044" radius="0.037" />
+                <cylinder length="0.031" radius="0.037" />
             </geometry>
             <material name="blue"/>
         </collision>
-        <xacro:inertial_cylinder mass="0.035" length="0.044" radius="0.037">
-            <origin xyz="0 0 0.022" rpy="0 0 0"/>
+        <xacro:inertial_cylinder mass="0.035" length="0.031" radius="0.037">
+            <origin xyz="0 0 0.0165" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
     <gazebo reference="right_wheel">

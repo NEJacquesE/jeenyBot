@@ -7,10 +7,6 @@ joy_node:
 teleop_node:
   ros__parameters:
     
-    #axes are inverted it seems
-    #linear is for rotation and linear and vice versa
-    #Will fix eventually
-
     axis_linear:  # Left thumb stick vertical
       x: 1
     scale_linear:
