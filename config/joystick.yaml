@@ -1,0 +1,30 @@
+joy_node:
+  ros__parameters:
+    device_id: 0
+    deadzone: 0.05
+    autorepeat_rate: 20.0
+
+teleop_node:
+  ros__parameters:
+    
+    #axes are inverted it seems
+    #linear is for rotation and linear and vice versa
+    #Will fix eventually
+    
+    axis_linear:  # Left thumb stick vertical
+      x: 0
+    scale_linear:
+      x: 0.5
+    scale_linear_turbo:
+      x: 1.0
+
+    axis_angular:  # Left thumb stick horizontal
+      yaw: 1
+    scale_angular:
+      yaw: 3.0
+    scale_angular_turbo:
+      yaw: 5.0
+
+    require_enable_button: true
+    enable_button: 5  # Left shoulder button
+    enable_turbo_button: 4  # Right shoulder button
